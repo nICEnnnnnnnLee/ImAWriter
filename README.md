@@ -2,7 +2,7 @@
 ===========================
 ![](https://img.shields.io/badge/Python-3-green.svg) ![](https://img.shields.io/badge/requests-2.22.0-green.svg)
 ### 阅文作家专区 - <https://write.qq.com/>
-### 我的作品 - [以混沌之名](https://book.qidian.com/info/1017574231)
+帮助遗失原稿的作家从后台批量下载自己的稿子
 
     
 ****
@@ -12,8 +12,10 @@
 
 ## :dolphin:使用前须知
 有两个参数需要改一下：
+```
 	UserID --> https://write.qq.com/portal/booknovels/chaptertmp/CBID/ 后面的那一串数字
 	Cookie --> pgv_pvi=x; eas_sid=xx; pgv_pvid=xxx; RK=xxxx; ptcz=... 总之很长就是了。你懂的
+```
 
 ## :dolphin:运行环境
 Version: Python3
@@ -44,4 +46,4 @@ data
 ```
 
 ## :dolphin:LICENSE
-本项目基于SATA协议，同时使用者可以考虑收藏+推荐[以混沌之名](https://book.qidian.com/info/1017574231)(当然不给也无所谓😳
+本项目基于SATA协议，同时使用者可以考虑收藏或推荐[**以混沌之名**](https://book.qidian.com/info/1017574231)(有人说巨毒，所以不给也无所谓😳
