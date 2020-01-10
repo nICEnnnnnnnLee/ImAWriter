@@ -13,7 +13,7 @@
 ## :dolphin:使用前须知
 有两个参数需要改一下：
 ```
-	UserID --> https://write.qq.com/portal/booknovels/chaptertmp/CBID/ 后面的那一串数字
+	CBID --> https://write.qq.com/portal/booknovels/chaptertmp/CBID/ 后面的那一串数字
 	Cookie --> pgv_pvi=x; eas_sid=xx; pgv_pvid=xxx; RK=xxxx; ptcz=... 总之很长就是了。你懂的
 ```
 
@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 ## :dolphin:运行结果
 大致将保存成一下结构：
 ```
-data
+[书名]
 |
 |------作品相关
 |		|---------相关1.txt
